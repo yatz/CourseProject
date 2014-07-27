@@ -21,17 +21,17 @@
 4. instructions to run the R script
  1. load the R script
 
-    **source("run_analysis.R")**
+  - **source("run_analysis.R")**
 
  2. run the main function -- run_analysis()
 
-    **tidy <- run_analysis()**
+  - **tidy <- run_analysis()**
 
  3. check the result
 
-    **dim(tidy)**                                   #output: [1] 180  68
-    **list.files(path=".", pattern="tidy.txt")**    #output: [1] "tidy.txt"
-    **tidy2 <- read.table("tidy.txt", header=TRUE)**
-    **dim(tidy2)**                                  #output: [1] 181  68
-    **identical(colnames(tidy), colnames(tidy2))**  #output: [1] TRUE
+  - **dim(tidy)**                                   #output: [1] 180  68
+  - **list.files(path=".", pattern="tidy.txt")**    #output: [1] "tidy.txt"
+  - **tidy2 <- read.table("tidy.txt", header=TRUE)**
+  - **dim(tidy2)**                                  #output: [1] 181  68
+  - **identical(colnames(tidy), colnames(tidy2))**  #output: [1] TRUE
 
