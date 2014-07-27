@@ -33,6 +33,6 @@
   - **dim(tidy)**                                   #output: [1] 180  68
   - **list.files(path=".", pattern="tidy.txt")**    #output: [1] "tidy.txt"
   - **tidy2 <- read.table("tidy.txt", header=TRUE)**
-  - **dim(tidy2)**                                  #output: [1] 181  68
+  - **dim(tidy2)**                                  #output: [1] 180  68
   - **identical(colnames(tidy), colnames(tidy2))**  #output: [1] TRUE
 
