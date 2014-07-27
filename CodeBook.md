@@ -15,7 +15,8 @@
         An identifier of the subject who carried out the experiment
                 1 .. 30
 
-**(time domain signals denoted by prefix 't')**
+
+**time domain signals denoted by prefix 't'**
 
 - tBodyAcc_XYZ
 
@@ -57,7 +58,8 @@
 
         Euclidean norm of Jerk signals derived from angular velocity
 
-**(frequency domain signals denoted by prefix 'f')**
+
+**frequency domain signals denoted by prefix 'f'**
 
 - fBodyAcc_XYZ
 
@@ -87,7 +89,8 @@
 
         FFT of Euclidean norm of Jerk signals derived from angular velocity
 
-**(The set of variables that were estimated from these signals)**
+
+**The set of variables that were estimated from these signals**
 
 - MEAN
 
