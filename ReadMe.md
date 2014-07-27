@@ -1,6 +1,6 @@
-## Peer Assessments / Getting and Cleaning Data Course Project
-## Demonstrate the process to collect, work with, and clean a data set.
-## The goal is to prepare tidy data that can be used for later analysis.
+#### Peer Assessments / Getting and Cleaning Data Course Project
+#### Demonstrate the process to collect, work with, and clean a data set.
+#### The goal is to prepare tidy data that can be used for later analysis.
 
 1. related files:
  - 'ReadMe.md' : This file.
@@ -19,13 +19,13 @@
  - download the source data compressed file and extract to the working directory of R
 
 4. instructions to run the R script
- 1) load the R script
-    source("run_analysis.R")
- 2) run the main function -- run_analysis()
-    tidy <- run_analysis()
- 3) check the result
-    dim(tidy)                                   #output => [1] 180  68
-    list.files(path=".", pattern="tidy.txt")    #output => [1] "tidy.txt"
-    tidy2 <- read.table("tidy.txt", header=TRUE)
-    dim(tidy2)                                  #output => [1] 181  68
-    identical(colnames(tidy), colnames(tidy2))  #output => [1] TRUE
+ 1. load the R script
+    **source("run_analysis.R")**
+ 2. run the main function -- run_analysis()
+    **tidy <- run_analysis()**
+ 3. check the result
+    **dim(tidy)**                                   #output: [1] 180  68
+    **list.files(path=".", pattern="tidy.txt")**    #output: [1] "tidy.txt"
+    **tidy2 <- read.table("tidy.txt", header=TRUE)**
+    **dim(tidy2)**                                  #output: [1] 181  68
+    **identical(colnames(tidy), colnames(tidy2))**  #output: [1] TRUE

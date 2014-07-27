@@ -1,6 +1,6 @@
-DATA DICTIONARY - Human Activity Recognition Using Smartphones Data Set
+## DATA DICTIONARY - Human Activity Recognition Using Smartphones Data Set
 
-ACTIVITY
+- ACTIVITY
         The activity was performed while wearing a smartphone
                 1 WALKING
                 2 WALKING_UPSTAIRS
@@ -9,53 +9,53 @@ ACTIVITY
                 5 STANDING
                 6 LAYING
 
-SUBJECT
+- SUBJECT
         An identifier of the subject who carried out the experiment
                 1 .. 30
 
-### time domain signals denoted by prefix 't' ###
+** time domain signals denoted by prefix 't' **
 
-tBodyAcc_XYZ
+- tBodyAcc_XYZ
         body acceleration signals (3-axial)
-tGravityAcc_XYZ
+- tGravityAcc_XYZ
         gravity acceleration signals (3-axial)
-tBodyAccJerk_XYZ
+- tBodyAccJerk_XYZ
         Jerk signals derived from body linear acceleration (3-axial)
-tBodyGyro_XYZ
+- tBodyGyro_XYZ
         gyroscope signals (3-axial)
-tBodyGyroJerk_XYZ
+- tBodyGyroJerk_XYZ
         Jerk signals derived from angular velocity (3-axial)
-tBodyAccMag
+- tBodyAccMag
         Euclidean norm of body acceleration signals
-tGravityAccMag
+- tGravityAccMag
         Euclidean norm of gravity acceleration signals
-tBodyAccJerkMag
+- tBodyAccJerkMag
         Euclidean norm of Jerk signals derived from body linear acceleration
-tBodyGyroMag
+- tBodyGyroMag
         Euclidean norm of gyroscope signals
-tBodyGyroJerkMag
+- tBodyGyroJerkMag
         Euclidean norm of Jerk signals derived from angular velocity
 
-### frequency domain signals denoted by prefix 'f' ###
+** frequency domain signals denoted by prefix 'f' **
 
-fBodyAcc_XYZ
+- fBodyAcc_XYZ
         FFT of body acceleration signals (3-axial)
-fBodyAccJerk_XYZ
+- fBodyAccJerk_XYZ
         FFT of Jerk signals derived from body linear acceleration (3-axial)
-fBodyGyro_XYZ
+- fBodyGyro_XYZ
         FFT of gyroscope signals (3-axial)
-fBodyAccMag
+- fBodyAccMag
         FFT of Euclidean norm of body acceleration signals
-fBodyAccJerkMag
+- fBodyAccJerkMag
         FFT of Euclidean norm of Jerk signals derived from body linear acceleration
-fBodyGyroMag
+- fBodyGyroMag
         FFT of Euclidean norm of gyroscope signals
-fBodyGyroJerkMag
+- fBodyGyroJerkMag
         FFT of Euclidean norm of Jerk signals derived from angular velocity
 
-### The set of variables that were estimated from these signals ###
+** The set of variables that were estimated from these signals **
 
-MEAN
+- MEAN
         Mean value
-STD
+- STD
         Standard deviation
