@@ -19,15 +19,16 @@
  - download the source data compressed file and extract to the working directory of R
 
 4. instructions to run the R script
- 1. load the R script
+
+ 4-1. load the R script
 
   - **source("run_analysis.R")**
 
- 2. run the main function -- run_analysis()
+ 4-2. run the main function -- run_analysis()
 
   - **tidy <- run_analysis()**
 
- 3. check the result
+ 4-3. check the result
 
   - **dim(tidy)**                                   #output: [1] 180  68
   - **list.files(path=".", pattern="tidy.txt")**    #output: [1] "tidy.txt"
